@@ -1,63 +1,60 @@
-# This repository was initiated with create-react-native-web-app
+# React Native web Sharingan
 
-[![NPM](https://nodei.co/npm/create-react-native-web-app.png)](https://npmjs.org/package/create-react-native-web-app)
+### A simple react native web sample web
 
-![GitHub issues](https://img.shields.io/github/issues/orYoffe/create-react-native-web-app.svg)
-![license](https://img.shields.io/github/license/orYoffe/create-react-native-web-app.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/orYoffe/create-react-native-web-app.svg)
-![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/create-react-native-web-app.svg)
-![npm](https://img.shields.io/npm/v/create-react-native-web-app.svg)
-
-### A simple CLI tool to start your React Native Web project to develop same app for IOS Android and Web
-
-<p align="center" >
-<img width="300"  src="https://raw.githubusercontent.com/orYoffe/create-react-native-web-app/master/template/src/logo.png">
+<p align="center">
+<img width="500" src="./images/app_image.png">
 </p>
 
-## Installation
+### Installation
+
+#### Requirements
+
+In order to properly run this app you'll have different requirements for each platform.
+
+- *web*
+  To properly run this app on the web, you must have node and npm/yarn installed.
+
+  once inside the app repository run
+```sh
+#with npm
+$ npm run web
+```
+or
 
 ```sh
-# Run create-react-native-web-app <project-directory>
-$ npx create-react-native-web-app myApp
+#with yarn
+$ yarn web
+```
 
-# if you previously installed this package globaly run this command first to uninstall the previous version:
-# npm uninstall -g create-react-native-web-app
+- *IOS*
+In order to run the IOS app, you must have a computer with mac OS running  and xCode as well as the react native development setup installed
 
-# cd into your <project-directory>
-$ cd myApp
-
-# Run Web/Ios/Android development
-# Web
-$ npm run web
-
-# IOS (simulator)
+  once inside the app repository run
+```sh
+#with npm
 $ npm run ios
+```
+or
 
-# Android (connected device)
+```sh
+#with yarn
+$ yarn ios
+```
+
+- *Android*
+In order to run the Android app, you must have the android SDK installed as well as the react native development setup installed
+
+once inside the app repository run
+```sh
+#with npm
 $ npm run android
-
 ```
+or
 
-- To work with IOS and Android - Install Xcode and Android studio and follow the react native instructions [under the "Building Projects with Native Code" tab](http://facebook.github.io/react-native/docs/getting-started.html)
-
-<p align="center" >
-<img width="1000"  src="https://raw.githubusercontent.com/orYoffe/create-react-native-web-app/master/cli_preview.png">
-</p>
-
-## Folder structure
-
-```
-myApp
-├── android (When opening with Android studio, open this folder)
-│   └── android project files
-├── ios (When opening with Xcode, open this folder)
-│   └── ios project files
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-└── src
-    └── project code
+```sh
+#with yarn
+$ yarn android
 ```
 
 ## Resources
